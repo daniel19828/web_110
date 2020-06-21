@@ -1,0 +1,66 @@
+@charset "UTF-8";
+/* CSS Document */
+<style type="text/css">
+.form_container {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+}
+.sell_gold_online {
+	background-color: #DBBF02;
+	height: 280px;
+	width: 350px;
+	/* [disabled]margin-left: 200px; */
+	margin-top: 150px;
+	border-radius: 50px;
+	float: right;
+	margin-bottom: 100px;
+}
+.sell_my_gold_online {
+	font-size: 30px;
+	font-weight: normal;
+	padding-top: 6px;
+	/* [disabled]padding-right: 6px; */
+	/* [disabled]padding-left: 6px; */
+	padding-bottom: 6px;
+	height: auto;
+	text-align: center;
+	letter-spacing: 2px;
+	/* [disabled]line-height: 30px; */
+	color: #D32CDD;
+}
+form p .name_first {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+form p .name_last {
+	margin-left: 10px;
+	margin-right: 10px;
+}
+form p .emial {
+	margin-left: 10px;
+	margin-right: 41px;
+	width: 200px;
+	height: auto;
+	min-width: 150px;
+}
+form p .quanity {
+	margin-left: 10px;
+	margin-right: 23px;
+}
+form p .phone {
+}
+#form1 p #submit {
+	margin-left: 100px;
+	width: 170px;
+	font-size: large;
+	text-align: center;
+	font-weight: bold;
+	background-color: #B7B4AC;
+	border: thin solid #5C5B5B;
+	border-radius: 10px;
+}
+</style>

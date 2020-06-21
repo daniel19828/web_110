@@ -1,0 +1,521 @@
+@charset "UTF-8";
+#topnav {
+	padding-top: 0px;
+	padding-left: 0px;
+	padding-bottom: 0px;
+	padding-right: 0px;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-right: auto;
+	margin-left: auto;
+	float: left;
+}
+#topnav ul {
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+#topnav ul li {
+	background-color: #000000;
+	float: left;
+	position: relative;
+	border: thin solid #6F6F6F;
+	list-style-type: none;
+}
+#topnav ul li a {
+	color: #FFFFFF;
+	font-size: 14px;
+	text-decoration: none;
+	display: block;
+	line-height: 30px;
+	width: 165px;
+	height: 30px;
+	text-align: center;
+}
+#topnav ul ul  {
+	position: absolute;
+	visibility: hidden;
+	top: 31px;
+	left: -1px;
+}
+#topnav ul li:hover ul {
+	visibility: visible;
+}
+#topnav ul li:hover {
+	background-color: #333333;
+}
+#topnav ul li ul li a:hover {
+	background-color: #989898;
+}
+#topnav ul li a:hover  {
+	color: #000000;
+}
+.maincontainer {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1024px;
+}
+.content {
+	height: auto;
+	width: 100%;
+	max-width: 1024px;
+	float: left;
+	margin-top: 20px;
+}
+.seattle_footer {
+	background-color: #000000;
+	height: 100px;
+	width: 100%;
+	float: left;
+	color: #FFFFFF;
+	line-height: 120px;
+	text-indent: 20px;
+	letter-spacing: 3px;
+	font-size: small;
+	text-align: left;
+	padding-top: 20px;
+}
+h1 {
+	text-align: center;
+	/* [disabled]margin-left: 200px; */
+	width: auto;
+	height: auto;
+	margin-bottom: 50px;
+}
+h6 {
+	width: auto;
+}
+.digital_art_img {
+	height: auto;
+	width: auto;
+	margin-left: 200px;
+}
+.book_cover_img {
+	height: auto;
+	width: auto;
+	padding-left: 150px;
+	padding-bottom: 40px;
+}
+.logo_div {
+	height: 250px;
+	width: 250px;
+	float: left;
+	clear: right;
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-right: 30px;
+	margin-bottom: 30px;
+	background-color: #FFFFFF;
+	padding-top: 10px;
+}
+.content .artical_home a {
+	text-decoration: none;
+	/* [disabled]text-align: right; */
+}
+.facebook_icon {
+	height: auto;
+	width: auto;
+}
+.custom_graphic_div {
+	width: 400px;
+	height: 300px;
+	margin-left: 50px;
+	float: none;
+	clear: none;
+}
+
+@media screen and (max-width:568px){
+maincontainer {
+	width: 100%;
+}
+.maincontainer .banner_seattle #banner {
+	width: 100%;
+	height: 70px;
+}
+.maincontainer #topnav {
+	height: auto;
+	width: auto;
+}
+.maincontainer #topnav ul {
+	width: 100%;
+	height: 0px;
+	/* [disabled]position: relative; */
+}
+#topnav ul li {
+	width: 100%;
+	height: auto;
+	position: relative;
+}
+#topnav ul ul {
+	position: fixed;
+}
+.maincontainer .seattle_footer {
+	height: 60px;
+	font-size: 40%;
+	/* [disabled]text-indent: 3px; */
+	line-height: 100px;
+	float: left;
+	clear: both;
+	letter-spacing: 0px;
+}
+.seattle_footer a img {
+	width: 40px;
+	height: 40px;
+}
+.maincontainer .content img {
+	width: 100%;
+	height: 120px;
+	margin-bottom: -80px;
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.content .logo_div img {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: auto;
+	height: auto;
+	margin-left: -10px;
+}
+.maincontainer .content img {
+	float: left;
+	clear: both;
+}
+.content .facebook_icon  {
+	width: 150px;
+	margin-top: 100px;
+	margin-bottom: 50px;
+	padding-bottom: 30px;
+}
+.maincontainer .content .seattle_office_div {
+	width: 300px;
+	height: auto;
+	margin-bottom: 200px;
+}
+.content .book_cover_img img {
+	width: 280px;
+	height: 150px;
+	margin-left: -135px;
+	padding-bottom: 0px;
+	margin-bottom: 50px;
+}
+.content .contact_us_div img {
+	margin-left: -90px;
+	width: 200px;
+	height: 220px;
+	margin-bottom: 20px;
+	margin-top: -100px;
+}
+.maincontainer .content h5 {
+	margin-left: 0px;
+	margin-bottom: 50px;
+	font-size: large;
+}
+.maincontainer .content .custom_graphic_div {
+	width: 120px;
+	height: 169px;
+	margin-top: 30px;
+	margin-left: 90px;
+}
+.maincontainer .content .artical_home {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-top: 100px;
+}
+.maincontainer .content .home_img {
+	width: 260px;
+	height: 100%;
+	margin-left: -140px;
+	margin-bottom: 80px;
+}
+.maincontainer .content .logo_div {
+	margin-left: 60px;
+	width: auto;
+	height: auto;
+}
+.maincontainer .content .facebook_icon {
+	height: 150px;
+	margin-left: 15px;
+	width: auto;
+}
+.maincontainer .content .about_us_div {
+	height: 150px;
+	margin-left: -150px;
+	width: 280px;
+}
+.maincontainer .content .about_us_text {
+	margin-top: 100px;
+}
+.maincontainer .content .digital_art_div {
+	width: 300px;
+	height: 400px;
+	/* [disabled]margin-left: -150px; */
+}
+.maincontainer .content iframe {
+	width: 280px;
+	height: 400px;
+	margin-left: -170px;
+	margin-bottom: 200px;
+}
+.maincontainer .content .facebook_div {
+	width: 300px;
+	height: 400px;
+	margin-top: 250px;
+	margin-bottom: 250px;
+	padding-bottom: 200px;
+}
+.maincontainer .content .tee_shirt_ad_div {
+	width: 300px;
+	height: 300px;
+	margin-top: 500px;
+	float: none;
+	margin-left: -100px;
+	clear: none;
+	position: static;
+}
+.content .tshirt_div img {
+	width: 200px;
+	height: 170px;
+	margin-left: -50px;
+}
+.maincontainer .content h5 {
+	width: auto;
+	height: auto;
+	/* [disabled]float: left; */
+	/* [disabled]clear: both; */
+	/* [disabled]margin-top: 250px; */
+	margin-bottom: -120px;
+}
+.maincontainer .content h2 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.maincontainer .content h5 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+.maincontainer .content .home_ad_div {
+	width: 280px;
+	margin-left: -140px;
+	margin-bottom: 90px;
+	height: 0px;
+}
+}
+.banner_seattle {
+	height: auto;
+	width: auto;
+}
+.about_us_div {
+	height: auto;
+	width: auto;
+	padding-left: 160px;
+}
+.seattle_office_div {
+	height: auto;
+	width: auto;
+}
+.website_div {
+	height: auto;
+	width: auto;
+}
+.graphic_div {
+	height: auto;
+	width: 200px;
+	margin-bottom: -50px;
+	float: none;
+	margin-top: 150px;
+}
+textarea {
+	float: left;
+	width: 255px;
+	height: 30px;
+	margin-left: 0px;
+}
+.maincontainer .content #message {
+	width: 255px;
+	height: 200px;
+	margin-left: 0px;
+}
+.maincontainer .content input {
+	width: 78px;
+	height: 78px;
+	float: left;
+	clear: both;
+	margin-top: 20px;
+	margin-left: 150px;
+}
+#message {
+	width: 600px;
+	height: 150px;
+}
+#submit_request {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-top: 20px;
+	margin-bottom: 30px;
+	margin-left: 10px;
+}
+label {
+	float: left;
+	clear: both;
+	height: 50px;
+	width: 150px;
+}
+.maincontainer .content #amex {
+	float: left;
+	clear: both;
+	margin-left: 43px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+.maincontainer .content #visa {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 7px;
+}
+.maincontainer .content #master_card {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+.contact_text {
+	height: auto;
+	width: 250px;
+	float: left;
+	clear: both;
+	margin-left: 150px;
+	margin-top: 30px;
+	text-align: justify;
+	font-style: italic;
+	padding-top: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+	padding-left: 5px;
+}
+.email_link {
+	height: auto;
+	width: 250px;
+	float: left;
+	clear: both;
+	margin-left: 150px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	border: thin solid #000000;
+	text-align: center;
+}
+.empty_div {
+	height: 200px;
+	width: 600px;
+	float: left;
+	clear: both;
+	font-size: x-large;
+	line-height: 200px;
+	text-align: left;
+	letter-spacing: 3px;
+	text-indent: 75px;
+}
+.contact_us_div {
+	height: auto;
+	width: auto;
+	padding-left: 135px;
+	padding-bottom: 70px;
+}
+.digital_art_div {
+	height: auto;
+	width: auto;
+	padding-left: 160px;
+	margin-top: 150px;
+	margin-bottom: 50px;
+}
+.tshirt_div {
+	height: auto;
+	width: 250px;
+	margin-bottom: -100px;
+	margin-top: 100px;
+	margin-left: 100px;
+}
+.tee_shirt_ad_div {
+	width: auto;
+	height: auto;
+	margin-left: 300px;
+	position: relative;
+	bottom: 140px;
+	padding-left: 100px;
+}
+.tee_shirt_text {
+	height: auto;
+	width: auto;
+	font-size: medium;
+	margin-bottom: 100px;
+	line-height: 30px;
+	text-align: justify;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: -50px;
+}
+h5 {
+	font-size: xx-large;
+	margin-left: 120px;
+	margin-bottom: -100px;
+	color: #378CF0;
+}
+iframe {
+	width: 500px;
+	height: 500px;
+	padding-left: 180px;
+	padding-top: 200px;
+	padding-bottom: 50px;
+}
+.custom_graphic_div {
+	height: 300px;
+	width: 300px;
+	float: left;
+	margin-left: 40px;
+}
+.facebook_div {
+	width: 500px;
+	/* [disabled]margin-top: 150px; */
+	/* [disabled]margin-left: 200px; */
+	height: auto;
+	margin-bottom: 200px;
+}
+.artical_home {
+	height: auto;
+	/* [disabled]width: 100%; */
+	margin-bottom: 150px;
+	line-height: 30px;
+	padding-left: 20px;
+	padding-right: 20px;
+	text-align: justify;
+	/* [disabled]background-color: #C4C4C4; */
+	/* [disabled]padding-bottom: 300px; */
+	/* [disabled]padding-top: 100px; */
+	margin-top: 100px;
+}
+.about_us_text {
+	height: auto;
+	width: auto;
+	line-height: 30px;
+	text-align: justify;
+	margin-top: 100px;
+	margin-bottom: 100px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+.home_ad_div {
+	height: auto;
+	width: auto;
+	padding-top: 50px;
+	padding-left: 160px;
+}

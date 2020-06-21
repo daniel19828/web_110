@@ -1,0 +1,73 @@
+ 
+.main_container {
+	height: auto;
+	width: 100%;
+	margin-right: auto;
+	margin-left: auto;
+	max-width: 1024px;
+}
+.pacnw_banner {
+	height: 300px;
+	width: 100%;
+}
+.pacnw_nav {
+	background-color: #E71F22;
+	height: auto;
+	width: 100%;
+	font-size: large;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	/* [disabled]padding-left: 15px; */
+	text-align: center;
+	letter-spacing: 3px;
+	max-width: 1024px;
+}
+.left_side {
+	/* [disabled]background-color: #3E31E5; */
+	width: 600px;
+	float: left;
+	clear: both;
+	line-height: 120%;
+	text-indent: 40px;
+	padding-left: 30px;
+}
+.right_side {
+	/* [disabled]background-color: #38D84A; */
+	height: 450px;
+	width: 300px;
+	float: left;
+	clear: right;
+}
+.pacnw_footer {
+	background-color: #E9E826;
+	height: 140px;
+	width: 100%;
+	float: left;
+	text-align: left;
+	line-height: 250px;
+	font-size: x-large;
+	text-indent: 40px;
+	letter-spacing: 5px;
+}
+.webuy_gold {
+	/* [disabled]background-color: #27D4C7; */
+	height: 300px;
+	width: 300px;
+	margin-top: 135px;
+	margin-left: 80px;
+	padding-right: 5px;
+}
+.how_much_gold {
+	font-size: 20px;
+	font-style: normal;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 20px;
+	margin-right: 20px;
+	width: 600px;
+	height: 60px;
+	margin-top: 30px;
+	line-height: 25px;
+}
+

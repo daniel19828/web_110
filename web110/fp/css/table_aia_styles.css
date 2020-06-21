@@ -1,0 +1,39 @@
+/* Global rules */
+
+    
+    
+    table.client{
+        width: 700px;
+        float: left;
+      
+        text-color: black;
+       
+        margin-top:100px;
+        margin-left: 100px;
+        margin-right: 200px;
+        margin-bottom: 100px;
+        }
+    
+    table.audience{
+        
+        width: 600px
+        float: left;
+      
+        margin-left: 100px;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        
+    }
+    
+    td{
+    margin-left: 200px;
+    text-color: black;
+    text-align: left;
+    width: 300px;   
+        
+        
+    }
+    
+    
+    
+    
